@@ -3,6 +3,27 @@
 > Palindrome Check using CharStack and CharQueue \
 > __Author:__ 🌻 Mei Okubo 🌻
 
+### Sample Output
+```bash
+Enter a string to check if it's a palindrome. 
+(To quit, press Ctrl+D)
+> 1234%^&^%4321
+Yep, that's a palindrome!
+> asdfdsa
+Yep, that's a palindrome!
+> 123dkfjah
+Nah, not a palindrome.
+> dsafdsa
+Nah, not a palindrome.
+> 1234%^&^%4321
+Yep, that's a palindrome!
+> dsafdsa
+Nah, not a palindrome.
+> asdsa
+Yep, that's a palindrome!
+> Bye Bye 🤟
+```
+
 ## 🐝 Basic Requirements
 - Make your own queue class that handles char data. - No templates needed.
 - Implement either an array-based or link-based queue. Your choice.

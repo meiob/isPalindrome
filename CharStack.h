@@ -18,13 +18,13 @@ private:
     int top;
 
 public:
-    CharStack();  // Constructor
-    void push(char c);  // Function to push a character onto the stack
-    char pop();  // Function to pop a character from the stack
-    bool isEmpty() const;  // Function to check if the stack is empty
-    bool isFull() const;  // Function to check if the stack is full
-    char peek() const;  // Function to get the top character of the stack without popping
-    int size() const;   // Function to get the number of elements in the stack
+    CharStack();  // constructor
+    void push(char c);  // push a character onto the stack
+    char pop();  // pop a character from the stack
+    bool isEmpty() const;  // check if the stack is empty
+    bool isFull() const;  // check if the stack is full
+    char peek() const;  // get the top character of the stack without popping
+    int size() const;   // get the number of elements in the stack...
 };
 
 #endif // CHARSTACK_H

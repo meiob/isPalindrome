@@ -12,7 +12,7 @@ bool isPalindrome(std::string S) {
     CharQueue q;
 
     for(char c : S) {
-        // Before pushing to the stack or enqueueing to the queue, 
+        // before pushing to the stack or enqueueing to the queue, 
         // ensure they're not full.
         if (!s.isFull()) {
             s.push(c);
@@ -25,9 +25,9 @@ bool isPalindrome(std::string S) {
 
     while(!s.isEmpty() && !q.isEmpty()) {
         if(s.pop() != q.dequeue()) {
-            return false; // Not a palindrome
+            return false; // not a palindrome 👎🏽
         }
     }
 
-    return true; // It's a palindrome
+    return true; // it's a palindrome 👍🏽
 }

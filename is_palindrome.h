@@ -7,7 +7,8 @@
 #define IS_PALINDROME_H
 
 #include <string>
+using namespace std;
 
-bool isPalindrome(std::string S);
+bool isPalindrome(string S);
 
 #endif // IS_PALINDROME_H
